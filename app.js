@@ -23,7 +23,7 @@ function convertSecondsToMinutes(seconds) {
 
 
 async function getsongs() {
-    let a = await fetch("http://127.0.0.1:5500/songs/")
+    let a = await fetch("https://github.com/bishalhota/Spotify/blob/master/songs/")
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response;
