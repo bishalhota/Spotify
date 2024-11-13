@@ -1,0 +1,47 @@
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.invert{
+    filter:invert(1);
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px;  /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c;  /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;  /* Color of the scrollbar thumb */
+    border-radius: 10px;  /* Roundness of the scrollbar thumb */
+    border: 3px solid #2c2c2c;  /* Padding around the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;  /* Color when hovering over the scrollbar thumb */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;  /* Width of the scrollbar */
+    scrollbar-color: #555 #2c2c2c;  /* Color of the scrollbar thumb and track */
+}
+
+/* Optional: additional styling for better appearance */
+body {
+    background-color: #1c1c1c;  /* Background color of the website */
+    color: #e0e0e0;  /* Text color */
+    font-family: Arial, s
+}
